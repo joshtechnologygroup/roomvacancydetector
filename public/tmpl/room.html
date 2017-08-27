@@ -1,0 +1,52 @@
+<div class="container">
+	<div class="header">
+		Meeting Rooms
+	</div>
+	<div class="row">
+		<div class="col-md-12 room-title">
+			Room 1
+		</div>
+	</div>
+	<div ng-if = "room_one_list.length == 0" class="room-member green">
+		EMPTY
+	</div>
+	<div ng-repeat = "item in room_one_list" class="row">
+		<div class="room-member">{{item.email}}</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 room-title">
+			Room 2
+		</div>
+	</div>
+	<div ng-if = "room_two_list.length == 0" class="room-member green">
+		EMPTY
+	</div>
+	<div ng-repeat = "item in room_two_list" class="row">
+		<div class="room-member">{{item.email}}</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 room-title">
+			Room 3
+		</div>
+	</div>
+	<div ng-if = "room_three_list.length == 0" class="room-member green">
+		EMPTY
+	</div>
+	<div ng-repeat = "item in room_three_list" class="row">
+		<div class="room-member">{{item.email}}</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12 room-title">
+			Room 4
+		</div>
+	</div>
+	<div ng-if = "room_four_list.length == 0" class="room-member green">
+		EMPTY
+	</div>
+	<div ng-repeat = "item in room_four_list" class="row">
+		<div class="room-member">{{item.email}}</div>
+	</div>
+</div>

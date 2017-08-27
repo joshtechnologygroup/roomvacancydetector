@@ -1,0 +1,57 @@
+<div class="container">
+	<div class="header">
+		Attendance Example
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="table-header">Enter</div>
+			<div class="row">
+				<div class="col-md-4">
+					<span class="table-sub-header">Email</span>
+				</div>
+				<div class="col-md-4">
+					<span class="table-sub-header">Date</span>
+				</div>
+				<div class="col-md-4">
+					<span class="table-sub-header">Time</span>
+				</div>
+			</div>
+			<div ng-repeat = "item in enter_list" class="att-list-item">
+				<div class="col-md-4">
+					{{item.email}}
+				</div>
+				<div class="col-md-4">
+					{{item.date}}
+				</div>
+				<div class="col-md-4">
+					{{item.localtime}}
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="table-header">Exit</div>
+			<div class="row">
+				<div class="col-md-4">
+					<span class="table-sub-header">Email</span>
+				</div>
+				<div class="col-md-4">
+					<span class="table-sub-header">Date</span>
+				</div>
+				<div class="col-md-4">
+					<span class="table-sub-header">Time</span>
+				</div>
+			</div>
+			<div ng-repeat = "item in out_list" class="att-list-item">
+				<div class="col-md-4">
+					{{item.email}}
+				</div>
+				<div class="col-md-4">
+					{{item.date}}
+				</div>
+				<div class="col-md-4">
+					{{item.time}}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

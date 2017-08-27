@@ -1,0 +1,41 @@
+.header {
+	padding: 20px;
+	font-size: 20px;
+	background: #3F51B5;
+	color: #fff;
+}
+
+.table-header {
+	font-weight: bold;
+	font-size: 16px;
+	padding: 7px;
+	background: #FFECB3;
+}
+
+.att-list-item {
+	padding: 10px;
+	border-bottom: solid 1px #dedede;
+	float: left;
+	width: 100%;
+}
+
+.table-sub-header {
+	font-weight: bold;
+	padding: 10px;
+	float: left;
+}
+
+.room-title {
+	background: #FFECB3;
+	padding: 10px;
+	font-weight: bold;	
+}
+
+.room-member {
+	padding: 10px;
+	padding-left: 30px;
+}
+
+.green {
+	background: #8BC34A;
+}
